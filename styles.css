@@ -1,0 +1,41 @@
+      body {
+        background-image: url(https://wallpaperaccess.com/full/1947484.jpg);
+        display: flex;
+        flex-direction: column;
+        flex-grow: 0;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+      }
+      h1 {
+        margin: 0 auto 40px;
+        color: #fff;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+      }
+
+      form label {
+        position: relative;
+        display: block;
+      }
+      input {
+        box-sizing: border-box;
+        display: block;
+        border: none;
+        padding: 20px;
+        width: 600px;
+        margin-bottom: 20px;
+        font-size: 18px;
+        outline: none;
+        transition: all 0.2s ease-in-out;
+      }
+
+      textarea {
+        width: 600px;
+        height: 200px;
+      }
+
+      button {
+        width: 600px;
+        height: 50px;
+      }
